@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="恵比寿のアーユルヴェーダサロン『toa』です。">
+    <meta name="viewport" content="withh=device-withh, initial-scale=1.0">
+    <title>toa :: Reservation</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/top.css">
+    <link rel="stylesheet" href="../css/reservation.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+
+    <script src="../js/common.js"></script>
+      
+    
+</head>
+<body id="reservation">
+    <div id="wrapper">
+        <header>
+
+            <div class="inner">
+                <div class="headerLogo">
+                    <h1 class="logo">
+                        <a href="../index.html">
+                            <!--img class="pc" src="images/logo.png" alt="toa logo,トア,とあ"-->
+                            <img class="sp" src="../images/logo.png" alt="toa logo,トア,とあ">
+                        </a>
+                    </h1>
+                </div>
+            
+                <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check" value="">
+                    <label for="menu-btn-check" class="menu-btn open"><span>Menu</span></label>
+
+                    <div class="menu-content">    
+                        <nav>
+                            <ul class="inner nav">
+                                <li class="home spon"><a href="../index.html">Home</a></li>
+                                <li class="news"><a href="../news/index.html">News</a></li>
+                                <li class="about"><a href="../about/index.html">About</a></li>
+                                <li class="staff"><a href="../staff/index.html">Staff</a></li>
+                                <li class="menu"><a href="../menu/index.html">Menu</a></li>
+                                <li class="qanda"><a href="../qanda/index.html">Q&amp;A</a></li>
+                                <li class="reservation"><a href="../reservation/index.html">Reservation</a></li>
+                                <li class="access"><a href="../access/index.html">Access</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div><!-- .inner -->
+
+        </header>
+
+
+    <hr>
+        <div class="inner">
+            <main>
+                <h2>Reservation</h2>
+
+                <form action=" " method="post">
+			<table>
+
+                <caption>ご予約はこちら</caption>
+
+				<tr>
+					<th>お名前<span style="color:#b22222"><sup>∗</sup></span></th>
+					<td><input type="text" name="onamae" value="" required="" class="form-text"></td>
+				</tr>
+				<tr>
+					<th>フリガナ<span style="color:#b22222"><sup>∗</sup></span></th>
+					<td><input type="text" name="furigana" value="" required="" class="form-text"></td>
+				</tr>
+                <tr>
+					<th>性別<span style="color:#b22222"><sup>∗</sup></span></th>
+					<td>
+                        <label><input type="radio" name="gender" value="" placeholder="" class="txtInput">男性</label>
+                        <label><input type="radio" name="gender" value="" placeholder="" class="txtInput">女性</label>
+                    </td>
+                    </tr>
+				<tr>
+					<th>電話番号</th>
+					<td><input type="tel" name="tel" value="" class="form-text"></td>
+				</tr>
+				<tr>
+					<th>メールアドレス<span style="color:#b22222"><sup>∗</sup></span></th>
+					<td><input type="email" name="email" value="" required="" class="form-text"></td>
+				</tr>
+                <tr>
+					<th>メニュー<span style="color:#b22222"><sup>∗</sup></span></th>
+					<td class="menuList">
+                        <label><input type="checkbox" name="menu" value="" placeholder="" class="txtInput">【新規】アビヤンガコース110min 	&yen;17,000 (Tax-in)</label><br>
+                        <label><input type="checkbox" name="menu" value="" placeholder="" class="txtInput">【リピーター】アビヤンガコース95min 	&yen;15,400 (Tax-in)</label><br>
+                        <label><input type="checkbox" name="menu" value="" placeholder="" class="txtInput">【新規】シロダーラコース110min 	&yen;21,000 (Tax-in)</label><br>
+                        <label><input type="checkbox" name="menu" value="" placeholder="" class="txtInput">【リピーター】シロダーラコース95min	&yen;19,800 (Tax-in)</label><br>
+                        <label><input type="checkbox" name="menu" value="" placeholder="" class="txtInput">イベント</label>
+
+                    </td>
+				</tr>
+				<tr>
+					<th>希望日時<span style="color:#b22222"><sup>∗</sup></span></th>
+					<td>
+						<select name="month1" required="" class="form-select">
+							<option value="" selected="selected">-</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+						</select> 月
+						<select name="day1" required="" class="form-select">
+							<option value="" selected="selected">-</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select> 日
+						<select name="time1" required="" class="form-select">
+							<option value="8" selected="selected">8:00～</option>
+							<option value="10">10:00～</option>
+							<option value="12">12:00～</option>
+                            <option value="iventTime">イベント</option>
+
+						</select>
+					</td>
+				</tr>
+                <tr>
+					<th>その他ご希望やご質問</th>
+					<td><textarea name="message" class="form-text textarea"></textarea></td>
+				</tr>
+				<tr>
+					<th colspan="2">
+						<input type="submit" value="予約" class="form-submit">
+					</th>
+				</tr>
+			</table>
+		</form>                    
+
+            </main>
+        </div>
+
+    <hr>
+
+        <footer>
+            <div class="inner">
+                <div class="footerFlex">
+                    <div class="footerBlock">
+                        <h3>Contact</h3>
+                            <p>info＠toa.com</p>
+                            <p>03-6854-1003</p>
+                        <div class="footerBtn">
+                            <a class="button" href="">Reservation</a>
+                        </div>
+                    </div>
+
+                    <div class="footerBlock">
+                        <h3>Adress</h3>
+                        <p>〒150-0013 東京都渋谷区恵比寿1丁目21−18<br>
+                            ライツ恵比寿 202</p>
+                        <div class="footerBtn">
+                            <a class="button" href="https://goo.gl/maps/tZedSvSkRm727j8m9">Google Map</a>
+                        </div>
+                    </div>
+
+                    <div class="footerBlock">
+                        <h3>Opentime</h3>
+            　　         <p>Wendnesday</p>
+                        <p>8:00 ~ 14:00</p>
+                    </div>
+                </div><!-- .footerFlex-->
+
+                <div class="footerBottom">
+                    <div class="footerNav">
+                        <ul>
+                            <li class="home"><a href="../index.html">Home</a></li>
+                            <li class="news"><a href="../news/index.html">News</a></li>
+                            <li class="about"><a href="../about/index.html">About</a></li>
+                            <li class="staff"><a href="../staff/index.html">Staff</a></li>
+                            <li class="menu"><a href="../menu/index.html">Menu</a></li>
+                            <li class="qanda"><a href="../qanda/index.html">Q&amp;A</a></li>
+                            <li class="reservation"><a href="../reservation/index.html">Reservation</a></li>
+                            <li class="access"><a href="../access/index.html">Access</a></li>
+                        </ul>
+                    </div>
+                
+                    <p><small>&copy;toa. All right reserved</small></p>
+                </div>
+            </div><!-- .inner-->
+        </footer>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../js/common.js"></script>
+<div id="page_top"><a href="#wrapper"><span>TOP</span></a></div>
+</body>
+</html>
