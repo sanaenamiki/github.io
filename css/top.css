@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+.more {
+    font-size: 0.9375rem;
+    padding: 5px;
+}
+
+/*メインビジュアル　----------------------------*/
+
+
+.mainVmessage {
+    background: rgba(171, 201, 193, 0.5);
+    padding: 4% 0;
+}
+.messageCenter {
+    margin-bottom: 3.5%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.messageSub {
+    padding: 0 5%;
+} 
+
+
+/*コロナインフォメーション　--------------------------*/
+
+.covidInfo {
+    background: #fff;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+    border: solid 1px #000;
+    margin-top: 5%;
+    padding: 0 2em;
+    color: #000;
+}
+
+.covidInfo .covidMore {
+    text-align: right;
+    margin: 3.5% 0 1em;
+}
+.covidH2 {
+    font-size: 1.125rem;
+}
+.covidInfo .covidMore a{
+    text-decoration: none;
+    color: #000;
+}
+.covidInfo .covidMore a:hover{
+    text-decoration: underline;
+}
+
+/*NEWS --------------------------------------------*/
+article dl dt {
+    margin: 3.5% 0 0.5em;
+}
+
+article dl dd {
+    padding-bottom: 1em;
+    border-bottom: 1px solid #333333;
+}
+article p {
+    text-align: right;
+    padding: 1em 0;
+    margin: 3.5% 28px 0 0;
+}
+
+article p a {
+    text-decoration: none;
+    color: #333333;
+}
+
+article p a:hover {
+    text-decoration: underline #d6b991 3px;
+}
+
+/*アバウトアーユルヴェーダ　＆　メニュー  -----------------------------------*/
+section .sectionBlock {
+    display: flex;
+    justify-content: space-between;
+}
+section .sectionBlock .aboutMessage .ayurMore {
+    text-align: right;
+    padding: 5px;
+}
+
+section .sectionBlock .aboutMessage p a{
+    text-decoration: none;
+    color: #b22222;   
+}
+
+
+section .sectionBlock .aboutMessage p a:hover{
+    color: #000;  
+}
+
+section .aboutVisual img {
+    width: 400px;
+}
+
+section .aboutMessage {
+    background: rgba(158, 214, 220, 0.5);
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 5%;
+}
+
+section .aboutMessage .ayuruMore {
+    text-align: right;
+}
+@media screen and (max-width: 767px) {
+
+    .mainVmessage {
+        margin: 0;
+    }
+
+    .messageCenter {
+        font-size: 1em;
+    }
+
+    .covidH2 {
+        font-size: 1em;
+    }
+
+    .more {
+        font-size: 0.875rem;
+        text-align: right;
+    }
+
+    .sectionBlock{
+        flex-direction: column;
+        align-items: center;/*画像はalign-items*/
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+    }
+    section .sectionBlock .aboutMessage .ayurMore {
+        text-align: right;
+    }
+}
