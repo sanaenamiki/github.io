@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------問い合わせフォーム設定*/
+
+table {
+    margin: 3.5% auto 5%;
+}
+
+caption {
+    text-align: center;
+    margin-bottom: 3.5%;
+    font-weight: bold;
+}
+
+table th,
+table td {
+	padding: 10px 0;
+}
+
+table th {
+    width: 200px;
+}
+
+table td {
+    width: 80%;
+}
+
+tr th:last-child {
+	border-bottom: none;
+}
+.textarea {
+    height: 200px;
+}
+
+/*---------------------------------------------------------------------------入力欄設定*/
+.form-text {
+	width: 100%;
+	padding: 10px 0;
+	border: 1px solid #ccc;
+}
+
+.form-select {
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+/*---------------------------------------------------------------------------送信ボタン設定*/
+.form-submit {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	background: #9ed6dc;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.25rem;
+	padding: 5px;
+	border: none;
+	appearance: none;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+/*---------------------------------------------------------------------------レスポンシブ対応*/
+@media screen and (max-width: 767px){
+	/* h2 {
+	font-size: 1.25rem;
+	} */
+	table {
+        text-align: center;
+    }
+
+	table th, table td {
+	display: block;
+	}
+	
+	table th {
+	border-bottom: none;
+    width: auto;
+	}
+
+    table td {
+        width: 100%;
+    }
+
+    .menuList {
+        text-align: left;
+    }
+
+	.form-submit {
+		font-size: 1.125rem;
+	}
+}

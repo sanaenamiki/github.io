@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 1.125rem; */
+    margin: 5% 0 3.5%;
+}
+
+.menuMessage {
+    margin-bottom: 5%;
+}
+
+.menuClass {
+    display: flex;
+}
+
+.abShiro {
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.menuKana {
+    text-align: center;
+}
+
+.menuNew {
+    margin-top: 2%;
+}
+
+.menuNew::before{
+    content:'新規';
+    font-size: 0.9375rem;
+    background: #9ed6dc;
+    color: #fff;
+    padding: 5px;
+}
+
+.menuNew dt {
+    text-decoration: underline #d6b991;
+    margin: 1em 0;
+}
+
+.menuRepeat {
+    margin: 1em 0;
+}
+
+.menuRepeat::before {
+    content:'リピーター';
+    font-size: 0.9375rem;
+    background: #9ed6dc;
+    color: #fff;
+    padding: 5px;
+}
+
+.menuRepeat dt {
+    text-decoration: underline #d6b991;
+    margin: 1em 0;
+}
+
+.menuMore {
+    margin-bottom: 1em;
+}
+
+.menuInfo {
+    margin : 0;
+    font-size: 0.9375rem;
+    color: #808080;
+}
+
+
+@media screen and (max-width: 767px) {
+    .menuClass {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abShiro {
+        width: 80%;
+        margin: 0;
+    }
+}

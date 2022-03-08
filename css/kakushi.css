@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.stoneList {
+    display: flex;
+}
+
+.stone {
+    margin: auto;
+}
+

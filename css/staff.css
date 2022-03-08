@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.staffMessage {
+    margin: 5% 0 3.5%;
+}
+
+.staffMessage p {
+    line-height: 2;
+}
+
+.aboutAsami {
+    display: flex;
+    justify-content: space-between;
+}
+
+.asamiName {
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+}
+
+.asamiName h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.asamiImg {
+    padding: 0 auto;
+    max-width: 100%;
+    /* align-items: center; */
+    margin: 0 3%;
+}
+.asamiMessage {
+    margin: 3% auto 0;
+    text-align: center;
+} 
+
+.asami {
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+    .aboutAsami {
+        flex-direction: column;
+        align-items: center;/*画像はalign-items*/
+    }
+
+    .asamiMessage {
+        text-align: initial;
+    }
+}
