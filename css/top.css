@@ -5,7 +5,7 @@
     padding: 5px;
 }
 
-/*メインビジュアル　----------------------------*/
+/*メインビジュアル*/
 
 
 .mainVmessage {
@@ -49,7 +49,7 @@
     text-decoration: underline;
 }
 
-/*NEWS --------------------------------------------*/
+/*NEWS*/
 article dl dt {
     margin: 3.5% 0 0.5em;
 }
@@ -73,7 +73,7 @@ article p a:hover {
     text-decoration: underline #d6b991 3px;
 }
 
-/*アバウトアーユルヴェーダ　＆　メニュー  -----------------------------------*/
+/*アバウトアーユルヴェーダ　＆　メニュー*/
 section .sectionBlock {
     display: flex;
     justify-content: space-between;
@@ -129,7 +129,7 @@ section .aboutMessage .ayuruMore {
 
     .sectionBlock{
         flex-direction: column;
-        align-items: center;/*画像はalign-items*/
+        align-items: center;
     }
 
     .section2 {
