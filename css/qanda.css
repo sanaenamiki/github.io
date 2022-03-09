@@ -1,9 +1,5 @@
 @charset "utf-8";
 
-/* section {
-    margin: 0 auto;
-} */
-
 .qaMessage {
     margin-bottom: 3.5%;
     text-align: center;
@@ -88,7 +84,3 @@ section {
 .acd-content ul li::before {
     content:'●';
 }
-
-/* ol li::before {
-    list-style-type: decimal;
-} */
