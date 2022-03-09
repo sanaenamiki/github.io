@@ -65,7 +65,6 @@
 
 dl dt p {
     font-weight: bold;
-    /* color: #808080; */
     margin: 3% 0;
     border-bottom: 1px solid #333333;
     text-align: justify;
@@ -102,19 +101,6 @@ dl dd p span {
 }
 
 @media screen and (max-width: 767px) {
-    /* .newsList {
-        flex-direction: column; */
-        /* align-items: center;画像はalign-items */
-    /* } */
-
-    /* dl dt {
-        align-items: center;
-    }
-
-    .newsList div {
-        width: 100%;
-    } */
-
     .newsList {
         display: block;
         padding: 0 0;
